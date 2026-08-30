@@ -1,0 +1,30 @@
+{
+  "name": "upi-offline-mesh",
+  "version": "1.0.0",
+  "description": "Production-grade MERN migration of Offline UPI Mesh Network & Cryptographic Settlement System",
+  "main": "server/src/server.js",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "test": "npm --prefix server test",
+    "build:client": "npm --prefix client run build",
+    "start": "npm --prefix server start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "upi",
+    "offline-mesh",
+    "cryptography",
+    "rsa-oaep",
+    "aes-gcm",
+    "idempotency",
+    "settlement",
+    "mern"
+  ],
+  "author": "",
+  "license": "ISC"
+}
