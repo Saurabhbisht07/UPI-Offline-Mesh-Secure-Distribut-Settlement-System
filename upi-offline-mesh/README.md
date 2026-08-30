@@ -1,7 +1,7 @@
 # UPI Offline Mesh Network & Cryptographic Settlement System (MERN Stack)
 
-> [!IMPORTANT]
-> This application is a offline UPI mesh networking, hybrid cryptography (RSA-2048 + AES-256-GCM), Redis atomic idempotency, and transactional core bank settlement. In a production setting, real deployment requires integration with NPCI/Core Banking Systems (CBS), hardware security modules (HSM), physical BLE GATT drivers on Android/iOS, mobile device certificates, and regulatory compliance.
+> [!INTRO]
+> This application is a offline UPI mesh networking, hybrid cryptography (RSA-2048 + AES-256-GCM), Redis atomic idempotency, and transactional core bank settlement. Further in a production setting, real deployment requires integration with NPCI/Core Banking Systems (CBS), hardware security modules (HSM), physical BLE GATT drivers on Android/iOS, mobile device certificates, and regulatory compliance.
 
 ---
 
